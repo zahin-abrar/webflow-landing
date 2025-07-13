@@ -108,3 +108,45 @@ header h1 {
 .action-btn{
     margin: 0;
 }
+
+/* Productive user styles */
+.productive-user {
+    background: #eceeff;
+    border-radius: 24px;
+    max-width: 70%;
+    margin: 48px auto;
+    padding: 44px 0 38px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.productive-user h3 {
+    color: #22223B;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.user-statistics{
+    display: flex;
+    gap: 90px;
+    width: 100%;
+    justify-content: center;
+}
+.stat h1 {
+    color: #4E47FF;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.stat p {
+    color: #7b7b93;
+    font-size: 1.07rem;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
