@@ -298,6 +298,8 @@ header h1 {
     align-items: center;
     justify-content: center;
     gap: 25%;
+    margin-bottom: 60px;
+    margin-top: 20px;
 }
 .newsletter-column {
     align-items: center;
@@ -345,6 +347,43 @@ header h1 {
     width: 380px;
     margin-left: 0;
 }
+
+/* Footer styles */
+footer {
+    background: #fcfcfe;
+    text-align: center;
+    padding: 60px 0 44px 0;
+}
+footer h1 {
+    font-size: 5rem;
+    color: #4E47FF;
+    font-weight: 800;
+    margin: 0 0 28px 0;
+    letter-spacing: 1px;
+}
+footer p {
+    color: #9698B0;
+    font-size: 1.18rem;
+    font-weight: 400;
+    margin: 0 0 34px 0;
+    line-height: 1.45;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    color: #9698B0;
+    font-size: 1.12rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.18s;
+}
+
 
 
 
