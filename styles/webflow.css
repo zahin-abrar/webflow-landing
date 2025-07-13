@@ -241,3 +241,58 @@ header h1 {
     font-size: 0.96rem;
     font-weight: 400;
 }
+
+/* Focus better styles */
+.focus-better-section {
+    background: #f7f8fd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.focus-better-card {
+    background: #fff;
+    border-radius: 32px;
+    box-shadow: 0 2px 14px rgba(80,80,110,0.08);
+    max-width: 70%;
+    width: 100%;
+    padding: 58px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.focus-better-card h1 {
+    color: #18181B;
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: 0.01em;
+}
+
+.focus-better-card p {
+    color: #7b7b93;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 36px;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.focus-better-card .btn-primary {
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
+.focus-better-card img {
+    width: 78%;
+    max-width: 720px;
+    border-radius: 48px;
+    margin-top: 0;
+    box-shadow: 0 4px 18px rgba(80,80,110,0.13);
+    background: #fff;
+    display: block;
+}
